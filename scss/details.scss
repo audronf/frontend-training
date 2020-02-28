@@ -1,0 +1,35 @@
+@import './variables/_sizes';
+
+.book {
+    padding: 24px;
+    height: 416px;
+}
+
+.book-title-container {
+    margin-bottom: 52px;
+}
+
+.book-title {
+    font-size: $large-size;
+    font-weight: bold;
+}
+
+.book-title-genre {
+    font-size: $medium-size;
+    color: $grey;
+    padding-left: 8px;
+}
+
+.book-info-container {
+    margin-top: 36px;
+}
+
+.book-info-attribute {
+    font-size: $small-size;
+    font-weight: bold;
+}
+
+.book-info-value {
+    font-size: $small-size;
+    color: $grey
+}
