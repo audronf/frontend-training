@@ -48,3 +48,19 @@
     margin-right: 52px;
     height: 368px;
 }
+
+.book-image-container {
+    position: relative;
+
+    &:after {
+        transform: rotate(15deg);
+        background: url('../img/badge.png') no-repeat;
+        background-size: contain;
+        height: 120px;
+        width: 95px;
+        content: '';
+        position: absolute;
+        top: -20px;
+        right: 20px;
+    }
+}
