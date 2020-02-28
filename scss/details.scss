@@ -3,11 +3,15 @@
 .book {
     padding: 24px;
     height: 416px;
+    width: 100%;
+    max-width: 1000px;
     display: flex;
+    box-shadow: 4px 4px 10px $book-container-shadow;
 }
 
 .book-title-container {
     margin-bottom: 52px;
+    margin-right: 52px;
 }
 
 .book-title {
