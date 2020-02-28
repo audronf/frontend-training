@@ -3,6 +3,7 @@
 .book {
     padding: 24px;
     height: 416px;
+    display: flex;
 }
 
 .book-title-container {
@@ -32,4 +33,9 @@
 .book-info-value {
     font-size: $small-size;
     color: $grey
+}
+
+.book-image {
+    margin-right: 52px;
+    height: 368px;
 }
