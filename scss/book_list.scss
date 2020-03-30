@@ -1,0 +1,37 @@
+@import './variables/_sizes';
+
+.list-container {
+    background-color: $wild-sand;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1366px;
+    width: 100%;
+    justify-content: center;
+}
+
+.books-list-item {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 10px $book-container-shadow;
+    margin: 18px;
+    background-color: $white;
+    padding: 28px 28px 28px;
+    max-width: 198px;
+}
+
+.book-list-cover {
+    height: 200px;
+    max-width: 142px;
+}
+
+.book-list-title {
+    font-weight: bold;
+    font-size: $xsmall-size;
+    margin-top: 12px;
+}
+
+.book-list-author {
+    font-size: $xsmall-size;
+    color: $grey;
+    margin-top: 8px;
+}
