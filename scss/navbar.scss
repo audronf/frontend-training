@@ -2,6 +2,8 @@
 
 .navbar {
     position: fixed;
+    display: flex;
+    justify-content: space-around;
     height: 70px;
     width: 100%;
     box-shadow: 0 4px 10px 0 $book-container-shadow;
@@ -9,12 +11,8 @@
     border-top: 6px solid $cerulean;
 }
 
-.wolox-logo {
-    margin-left: 244px;
-}
-
 .logout-text {
     font-size: $navbar-size;
     line-height: 21px;
-    text-align: center;
+    padding-top: 20px;
 }
