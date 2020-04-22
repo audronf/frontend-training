@@ -6,6 +6,8 @@
     max-width: 900px;
     display: flex;
     box-shadow: 4px 4px 10px $book-container-shadow;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .book-title-container {
@@ -62,5 +64,21 @@
         position: absolute;
         top: -20px;
         right: 20px;
+    }
+}
+
+.back-button {
+    position: relative;
+    left: 30px;
+    top: 10px;
+
+    &::before {
+        background: url('../img/back-arrow.png') no-repeat;
+        content: '';
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: -25px;
+        
     }
 }
